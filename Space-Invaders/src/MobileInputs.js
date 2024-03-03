@@ -20,7 +20,7 @@ export class MobileInputs {
     }
   }
 
-  disable() {} // @todo implement
+//@todo , display() function 
 
   drawFireButton(texture) {
     let offsetX = 40;
