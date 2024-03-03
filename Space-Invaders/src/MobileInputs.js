@@ -1,6 +1,4 @@
-// @todo: proper mobile virtual joysticks. So far results have been poor.
-// Good example of custom controls here:https://playground.babylonjs.com/#C6V6UY#5
-
+//@TODO: Mobile Responsivesness
 import {Control, Ellipse, Line, Rectangle} from "@babylonjs/gui";
 
 export class MobileInputs {
@@ -22,9 +20,7 @@ export class MobileInputs {
     }
   }
 
-  disable() {
-
-  }
+  disable() {} // @todo implement
 
   drawFireButton(texture) {
     let offsetX = 40;

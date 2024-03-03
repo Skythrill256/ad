@@ -172,9 +172,6 @@ export class PlayerController {
     this.momentum += .2 * State.delta;
   }
 
-  // @todo: Player movement is faster at lower framerates!!!
-  //  Approx 30% fast at 24FPS than at 60.
-  //  Need to work on delta calculations.
   playerMove() {
     this.playerMesh.position.x += this.momentum * (State.delta);
     this.momentum /= Math.pow(1.4, State.delta);
